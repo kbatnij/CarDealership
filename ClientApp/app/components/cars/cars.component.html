@@ -1,3 +1,16 @@
-<p>
-  cars works!
-</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let c of columns">
+      <i>{{ c.title }}</i>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of cars">
+      <td>{{ car.make }}</td>
+      <td>{{ car.year }}</td>
+      <td>{{ car.color }}</td>
+      <td>{{ car.price }}</td>
+    </tr>
+  </tbody>
