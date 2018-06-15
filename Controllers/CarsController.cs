@@ -4,7 +4,6 @@ using CarDealership.Controllers.Resources;
 using CarDealership.Models;
 using CarDealership.Presistence;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace CarDealership.Controllers
 {
