@@ -16,12 +16,12 @@ namespace CarDealership.Migrations
                     Year = table.Column<int>(nullable: false),
                     Color = table.Column<string>(nullable: true),
                     Price = table.Column<decimal>(nullable: false),
-                    HasSunroof = table.Column<bool>(nullable: true),
-                    IsFourWheelDrive = table.Column<bool>(nullable: true),
-                    HasLowMiles = table.Column<bool>(nullable: true),
-                    HasPowerWindows = table.Column<bool>(nullable: true),
-                    HasNavigation = table.Column<bool>(nullable: true),
-                    HasHeatedSeats = table.Column<bool>(nullable: true)
+                    HasSunroof = table.Column<bool>(nullable: false),
+                    IsFourWheelDrive = table.Column<bool>(nullable: false),
+                    HasLowMiles = table.Column<bool>(nullable: false),
+                    HasPowerWindows = table.Column<bool>(nullable: false),
+                    HasNavigation = table.Column<bool>(nullable: false),
+                    HasHeatedSeats = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {

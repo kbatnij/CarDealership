@@ -38,5 +38,6 @@ export class CarsComponent implements OnInit {
   }
   resetFilter() {
     this.options = {};
+    this.populateCars();
   }
 }
