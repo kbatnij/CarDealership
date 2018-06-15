@@ -19,10 +19,13 @@ There are only two APIs for this applicaiton:
 #### Cars
   Returns json data of filtered cars. If no filter is provided, all cars are returned.
 
-**URL:**
+**URL**
 `/cars/{:options}`
-**Method:**
+
+**Method**
+
   `GET`
+  
 **Data Params**
 
 Field | Description
