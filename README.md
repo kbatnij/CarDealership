@@ -24,6 +24,7 @@ There are only two APIs for this applicaiton:
 **Method:**
   `GET`
 **Data Params**
+
 Field | Description
 ------|------------
 Color | `string` Filter cars by color
